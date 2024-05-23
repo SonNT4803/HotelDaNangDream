@@ -30,7 +30,7 @@ public class login extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            int a = 5;
+            String done = "Done 1 sumbit";
         }
     } 
 
@@ -45,8 +45,6 @@ public class login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
-        String a = request.getParameter("username");
-        String b = request.getParameter("password");  
     } 
 
     /** 
